@@ -1,25 +1,78 @@
 {
   "data": [
     {
-      "id": "cet4-core",
-      "name": "大学英语四级核心词汇",
-      "description": "精选CET4高频核心词汇，适合备考四级考试的同学",
-      "wordCount": 50,
+      "id": "cet4",
+      "name": "大学英语四级词汇",
+      "description": "大学英语四级考试核心词汇，涵盖CET-4考试高频单词",
+      "wordCount": 4544,
       "coverImage": null,
-      "tags": ["CET4", "大学英语", "核心词汇"],
+      "tags": [
+        "CET4",
+        "四级",
+        "大学英语"
+      ],
       "version": "1.0.0",
-      "author": "Danci Team",
+      "author": "kajweb/dict",
       "downloadCount": 0
     },
     {
-      "id": "daily-english",
-      "name": "日常英语100词",
-      "description": "日常生活中最常用的100个英语单词",
-      "wordCount": 20,
+      "id": "cet6",
+      "name": "大学英语六级词汇",
+      "description": "大学英语六级考试核心词汇，涵盖CET-6考试高频单词",
+      "wordCount": 2345,
       "coverImage": null,
-      "tags": ["日常", "入门", "基础"],
+      "tags": [
+        "CET6",
+        "六级",
+        "大学英语"
+      ],
       "version": "1.0.0",
-      "author": "Danci Team",
+      "author": "kajweb/dict",
+      "downloadCount": 0
+    },
+    {
+      "id": "kaoyan",
+      "name": "考研英语词汇",
+      "description": "全国硕士研究生入学考试英语核心词汇",
+      "wordCount": 4533,
+      "coverImage": null,
+      "tags": [
+        "考研",
+        "研究生",
+        "学术英语"
+      ],
+      "version": "1.0.0",
+      "author": "kajweb/dict",
+      "downloadCount": 0
+    },
+    {
+      "id": "toefl",
+      "name": "托福词汇",
+      "description": "TOEFL考试核心词汇，适合出国留学备考",
+      "wordCount": 9212,
+      "coverImage": null,
+      "tags": [
+        "托福",
+        "TOEFL",
+        "留学"
+      ],
+      "version": "1.0.0",
+      "author": "kajweb/dict",
+      "downloadCount": 0
+    },
+    {
+      "id": "ielts",
+      "name": "雅思词汇",
+      "description": "IELTS考试核心词汇，适合出国留学备考",
+      "wordCount": 3427,
+      "coverImage": null,
+      "tags": [
+        "雅思",
+        "IELTS",
+        "留学"
+      ],
+      "version": "1.0.0",
+      "author": "kajweb/dict",
       "downloadCount": 0
     }
   ]

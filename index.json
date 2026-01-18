@@ -1,6 +1,51 @@
 {
   "data": [
     {
+      "id": "xiaoxue",
+      "name": "小学英语词汇(人教版3-6年级)",
+      "description": "人教版小学英语3-6年级核心词汇汇总，适合小学生英语学习",
+      "wordCount": 819,
+      "coverImage": null,
+      "tags": [
+        "小学",
+        "人教版",
+        "基础英语"
+      ],
+      "version": "1.0.0",
+      "author": "kajweb/dict",
+      "downloadCount": 0
+    },
+    {
+      "id": "chuzhong",
+      "name": "中考必备词汇",
+      "description": "初中英语核心词汇，涵盖中考必考单词",
+      "wordCount": 1420,
+      "coverImage": null,
+      "tags": [
+        "初中",
+        "中考",
+        "必备词汇"
+      ],
+      "version": "1.0.0",
+      "author": "kajweb/dict",
+      "downloadCount": 0
+    },
+    {
+      "id": "gaozhong",
+      "name": "高考必备词汇",
+      "description": "高中英语核心词汇，涵盖高考必考单词",
+      "wordCount": 3668,
+      "coverImage": null,
+      "tags": [
+        "高中",
+        "高考",
+        "必备词汇"
+      ],
+      "version": "1.0.0",
+      "author": "kajweb/dict",
+      "downloadCount": 0
+    },
+    {
       "id": "cet4",
       "name": "大学英语四级词汇",
       "description": "大学英语四级考试核心词汇，涵盖CET-4考试高频单词",

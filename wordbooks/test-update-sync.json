@@ -1,15 +1,15 @@
 {
   "id": "test-update-sync",
   "name": "测试增量更新词书",
-  "description": "用于测试词书增量更新功能的测试词书 - 初始版本包含200个单词",
-  "wordCount": 200,
+  "description": "用于测试词书增量更新功能的测试词书 - v1.1.0: 修改10词 + 新增100词",
+  "wordCount": 300,
   "coverImage": null,
   "tags": [
     "测试",
     "增量更新",
     "开发"
   ],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Test Bot",
   "downloadCount": 0,
   "words": [
@@ -17,12 +17,12 @@
       "spelling": "test_000_apple",
       "phonetic": "/ˈæpəl/",
       "meanings": [
-        "苹果",
-        "苹果公司"
+        "[已更新] 苹果",
+        "[已更新] 苹果公司"
       ],
       "examples": [
-        "This is example 1 for apple.",
-        "This is example 2 for apple."
+        "Updated example 1 for word 0.",
+        "Updated example 2 for word 0."
       ],
       "audioUrl": null
     },
@@ -30,11 +30,11 @@
       "spelling": "test_001_banana",
       "phonetic": "/bəˈnænə/",
       "meanings": [
-        "香蕉"
+        "[已更新] 香蕉"
       ],
       "examples": [
-        "This is example 1 for banana.",
-        "This is example 2 for banana."
+        "Updated example 1 for word 1.",
+        "Updated example 2 for word 1."
       ],
       "audioUrl": null
     },
@@ -42,11 +42,11 @@
       "spelling": "test_002_cat",
       "phonetic": "/kæt/",
       "meanings": [
-        "猫"
+        "[已更新] 猫"
       ],
       "examples": [
-        "This is example 1 for cat.",
-        "This is example 2 for cat."
+        "Updated example 1 for word 2.",
+        "Updated example 2 for word 2."
       ],
       "audioUrl": null
     },
@@ -54,11 +54,11 @@
       "spelling": "test_003_dog",
       "phonetic": "/dɒɡ/",
       "meanings": [
-        "狗"
+        "[已更新] 狗"
       ],
       "examples": [
-        "This is example 1 for dog.",
-        "This is example 2 for dog."
+        "Updated example 1 for word 3.",
+        "Updated example 2 for word 3."
       ],
       "audioUrl": null
     },
@@ -66,11 +66,11 @@
       "spelling": "test_004_elephant",
       "phonetic": "/ˈelɪfənt/",
       "meanings": [
-        "大象"
+        "[已更新] 大象"
       ],
       "examples": [
-        "This is example 1 for elephant.",
-        "This is example 2 for elephant."
+        "Updated example 1 for word 4.",
+        "Updated example 2 for word 4."
       ],
       "audioUrl": null
     },
@@ -78,11 +78,11 @@
       "spelling": "test_005_fish",
       "phonetic": "/fɪʃ/",
       "meanings": [
-        "鱼"
+        "[已更新] 鱼"
       ],
       "examples": [
-        "This is example 1 for fish.",
-        "This is example 2 for fish."
+        "Updated example 1 for word 5.",
+        "Updated example 2 for word 5."
       ],
       "audioUrl": null
     },
@@ -90,11 +90,11 @@
       "spelling": "test_006_garden",
       "phonetic": "/ˈɡɑːrdən/",
       "meanings": [
-        "花园"
+        "[已更新] 花园"
       ],
       "examples": [
-        "This is example 1 for garden.",
-        "This is example 2 for garden."
+        "Updated example 1 for word 6.",
+        "Updated example 2 for word 6."
       ],
       "audioUrl": null
     },
@@ -102,11 +102,11 @@
       "spelling": "test_007_house",
       "phonetic": "/haʊs/",
       "meanings": [
-        "房子"
+        "[已更新] 房子"
       ],
       "examples": [
-        "This is example 1 for house.",
-        "This is example 2 for house."
+        "Updated example 1 for word 7.",
+        "Updated example 2 for word 7."
       ],
       "audioUrl": null
     },
@@ -114,11 +114,11 @@
       "spelling": "test_008_island",
       "phonetic": "/ˈaɪlənd/",
       "meanings": [
-        "岛屿"
+        "[已更新] 岛屿"
       ],
       "examples": [
-        "This is example 1 for island.",
-        "This is example 2 for island."
+        "Updated example 1 for word 8.",
+        "Updated example 2 for word 8."
       ],
       "audioUrl": null
     },
@@ -126,11 +126,11 @@
       "spelling": "test_009_juice",
       "phonetic": "/dʒuːs/",
       "meanings": [
-        "果汁"
+        "[已更新] 果汁"
       ],
       "examples": [
-        "This is example 1 for juice.",
-        "This is example 2 for juice."
+        "Updated example 1 for word 9.",
+        "Updated example 2 for word 9."
       ],
       "audioUrl": null
     },
@@ -2425,6 +2425,1306 @@
       "examples": [
         "This is example 1 for popular.",
         "This is example 2 for popular."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_200_adventure",
+      "phonetic": "/ədˈventʃər/",
+      "meanings": [
+        "冒险",
+        "奇遇"
+      ],
+      "examples": [
+        "This is new example 1 for adventure.",
+        "This is new example 2 for adventure."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_201_balance",
+      "phonetic": "/ˈbæləns/",
+      "meanings": [
+        "平衡",
+        "天平"
+      ],
+      "examples": [
+        "This is new example 1 for balance.",
+        "This is new example 2 for balance."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_202_celebrate",
+      "phonetic": "/ˈselɪbreɪt/",
+      "meanings": [
+        "庆祝",
+        "赞美"
+      ],
+      "examples": [
+        "This is new example 1 for celebrate.",
+        "This is new example 2 for celebrate."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_203_determine",
+      "phonetic": "/dɪˈtɜːrmɪn/",
+      "meanings": [
+        "决定",
+        "确定"
+      ],
+      "examples": [
+        "This is new example 1 for determine.",
+        "This is new example 2 for determine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_204_encourage",
+      "phonetic": "/ɪnˈkɜːrɪdʒ/",
+      "meanings": [
+        "鼓励",
+        "激励"
+      ],
+      "examples": [
+        "This is new example 1 for encourage.",
+        "This is new example 2 for encourage."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_205_fantastic",
+      "phonetic": "/fænˈtæstɪk/",
+      "meanings": [
+        "极好的",
+        "奇异的"
+      ],
+      "examples": [
+        "This is new example 1 for fantastic.",
+        "This is new example 2 for fantastic."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_206_generous",
+      "phonetic": "/ˈdʒenərəs/",
+      "meanings": [
+        "慷慨的",
+        "大方的"
+      ],
+      "examples": [
+        "This is new example 1 for generous.",
+        "This is new example 2 for generous."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_207_harmony",
+      "phonetic": "/ˈhɑːrməni/",
+      "meanings": [
+        "和谐",
+        "协调"
+      ],
+      "examples": [
+        "This is new example 1 for harmony.",
+        "This is new example 2 for harmony."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_208_imagine",
+      "phonetic": "/ɪˈmædʒɪn/",
+      "meanings": [
+        "想象",
+        "设想"
+      ],
+      "examples": [
+        "This is new example 1 for imagine.",
+        "This is new example 2 for imagine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_209_justice",
+      "phonetic": "/ˈdʒʌstɪs/",
+      "meanings": [
+        "正义",
+        "公正"
+      ],
+      "examples": [
+        "This is new example 1 for justice.",
+        "This is new example 2 for justice."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_210_adventure_1",
+      "phonetic": "/ədˈventʃər/",
+      "meanings": [
+        "冒险",
+        "奇遇"
+      ],
+      "examples": [
+        "This is new example 1 for adventure.",
+        "This is new example 2 for adventure."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_211_balance_1",
+      "phonetic": "/ˈbæləns/",
+      "meanings": [
+        "平衡",
+        "天平"
+      ],
+      "examples": [
+        "This is new example 1 for balance.",
+        "This is new example 2 for balance."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_212_celebrate_1",
+      "phonetic": "/ˈselɪbreɪt/",
+      "meanings": [
+        "庆祝",
+        "赞美"
+      ],
+      "examples": [
+        "This is new example 1 for celebrate.",
+        "This is new example 2 for celebrate."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_213_determine_1",
+      "phonetic": "/dɪˈtɜːrmɪn/",
+      "meanings": [
+        "决定",
+        "确定"
+      ],
+      "examples": [
+        "This is new example 1 for determine.",
+        "This is new example 2 for determine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_214_encourage_1",
+      "phonetic": "/ɪnˈkɜːrɪdʒ/",
+      "meanings": [
+        "鼓励",
+        "激励"
+      ],
+      "examples": [
+        "This is new example 1 for encourage.",
+        "This is new example 2 for encourage."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_215_fantastic_1",
+      "phonetic": "/fænˈtæstɪk/",
+      "meanings": [
+        "极好的",
+        "奇异的"
+      ],
+      "examples": [
+        "This is new example 1 for fantastic.",
+        "This is new example 2 for fantastic."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_216_generous_1",
+      "phonetic": "/ˈdʒenərəs/",
+      "meanings": [
+        "慷慨的",
+        "大方的"
+      ],
+      "examples": [
+        "This is new example 1 for generous.",
+        "This is new example 2 for generous."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_217_harmony_1",
+      "phonetic": "/ˈhɑːrməni/",
+      "meanings": [
+        "和谐",
+        "协调"
+      ],
+      "examples": [
+        "This is new example 1 for harmony.",
+        "This is new example 2 for harmony."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_218_imagine_1",
+      "phonetic": "/ɪˈmædʒɪn/",
+      "meanings": [
+        "想象",
+        "设想"
+      ],
+      "examples": [
+        "This is new example 1 for imagine.",
+        "This is new example 2 for imagine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_219_justice_1",
+      "phonetic": "/ˈdʒʌstɪs/",
+      "meanings": [
+        "正义",
+        "公正"
+      ],
+      "examples": [
+        "This is new example 1 for justice.",
+        "This is new example 2 for justice."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_220_adventure_2",
+      "phonetic": "/ədˈventʃər/",
+      "meanings": [
+        "冒险",
+        "奇遇"
+      ],
+      "examples": [
+        "This is new example 1 for adventure.",
+        "This is new example 2 for adventure."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_221_balance_2",
+      "phonetic": "/ˈbæləns/",
+      "meanings": [
+        "平衡",
+        "天平"
+      ],
+      "examples": [
+        "This is new example 1 for balance.",
+        "This is new example 2 for balance."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_222_celebrate_2",
+      "phonetic": "/ˈselɪbreɪt/",
+      "meanings": [
+        "庆祝",
+        "赞美"
+      ],
+      "examples": [
+        "This is new example 1 for celebrate.",
+        "This is new example 2 for celebrate."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_223_determine_2",
+      "phonetic": "/dɪˈtɜːrmɪn/",
+      "meanings": [
+        "决定",
+        "确定"
+      ],
+      "examples": [
+        "This is new example 1 for determine.",
+        "This is new example 2 for determine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_224_encourage_2",
+      "phonetic": "/ɪnˈkɜːrɪdʒ/",
+      "meanings": [
+        "鼓励",
+        "激励"
+      ],
+      "examples": [
+        "This is new example 1 for encourage.",
+        "This is new example 2 for encourage."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_225_fantastic_2",
+      "phonetic": "/fænˈtæstɪk/",
+      "meanings": [
+        "极好的",
+        "奇异的"
+      ],
+      "examples": [
+        "This is new example 1 for fantastic.",
+        "This is new example 2 for fantastic."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_226_generous_2",
+      "phonetic": "/ˈdʒenərəs/",
+      "meanings": [
+        "慷慨的",
+        "大方的"
+      ],
+      "examples": [
+        "This is new example 1 for generous.",
+        "This is new example 2 for generous."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_227_harmony_2",
+      "phonetic": "/ˈhɑːrməni/",
+      "meanings": [
+        "和谐",
+        "协调"
+      ],
+      "examples": [
+        "This is new example 1 for harmony.",
+        "This is new example 2 for harmony."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_228_imagine_2",
+      "phonetic": "/ɪˈmædʒɪn/",
+      "meanings": [
+        "想象",
+        "设想"
+      ],
+      "examples": [
+        "This is new example 1 for imagine.",
+        "This is new example 2 for imagine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_229_justice_2",
+      "phonetic": "/ˈdʒʌstɪs/",
+      "meanings": [
+        "正义",
+        "公正"
+      ],
+      "examples": [
+        "This is new example 1 for justice.",
+        "This is new example 2 for justice."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_230_adventure_3",
+      "phonetic": "/ədˈventʃər/",
+      "meanings": [
+        "冒险",
+        "奇遇"
+      ],
+      "examples": [
+        "This is new example 1 for adventure.",
+        "This is new example 2 for adventure."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_231_balance_3",
+      "phonetic": "/ˈbæləns/",
+      "meanings": [
+        "平衡",
+        "天平"
+      ],
+      "examples": [
+        "This is new example 1 for balance.",
+        "This is new example 2 for balance."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_232_celebrate_3",
+      "phonetic": "/ˈselɪbreɪt/",
+      "meanings": [
+        "庆祝",
+        "赞美"
+      ],
+      "examples": [
+        "This is new example 1 for celebrate.",
+        "This is new example 2 for celebrate."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_233_determine_3",
+      "phonetic": "/dɪˈtɜːrmɪn/",
+      "meanings": [
+        "决定",
+        "确定"
+      ],
+      "examples": [
+        "This is new example 1 for determine.",
+        "This is new example 2 for determine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_234_encourage_3",
+      "phonetic": "/ɪnˈkɜːrɪdʒ/",
+      "meanings": [
+        "鼓励",
+        "激励"
+      ],
+      "examples": [
+        "This is new example 1 for encourage.",
+        "This is new example 2 for encourage."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_235_fantastic_3",
+      "phonetic": "/fænˈtæstɪk/",
+      "meanings": [
+        "极好的",
+        "奇异的"
+      ],
+      "examples": [
+        "This is new example 1 for fantastic.",
+        "This is new example 2 for fantastic."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_236_generous_3",
+      "phonetic": "/ˈdʒenərəs/",
+      "meanings": [
+        "慷慨的",
+        "大方的"
+      ],
+      "examples": [
+        "This is new example 1 for generous.",
+        "This is new example 2 for generous."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_237_harmony_3",
+      "phonetic": "/ˈhɑːrməni/",
+      "meanings": [
+        "和谐",
+        "协调"
+      ],
+      "examples": [
+        "This is new example 1 for harmony.",
+        "This is new example 2 for harmony."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_238_imagine_3",
+      "phonetic": "/ɪˈmædʒɪn/",
+      "meanings": [
+        "想象",
+        "设想"
+      ],
+      "examples": [
+        "This is new example 1 for imagine.",
+        "This is new example 2 for imagine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_239_justice_3",
+      "phonetic": "/ˈdʒʌstɪs/",
+      "meanings": [
+        "正义",
+        "公正"
+      ],
+      "examples": [
+        "This is new example 1 for justice.",
+        "This is new example 2 for justice."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_240_adventure_4",
+      "phonetic": "/ədˈventʃər/",
+      "meanings": [
+        "冒险",
+        "奇遇"
+      ],
+      "examples": [
+        "This is new example 1 for adventure.",
+        "This is new example 2 for adventure."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_241_balance_4",
+      "phonetic": "/ˈbæləns/",
+      "meanings": [
+        "平衡",
+        "天平"
+      ],
+      "examples": [
+        "This is new example 1 for balance.",
+        "This is new example 2 for balance."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_242_celebrate_4",
+      "phonetic": "/ˈselɪbreɪt/",
+      "meanings": [
+        "庆祝",
+        "赞美"
+      ],
+      "examples": [
+        "This is new example 1 for celebrate.",
+        "This is new example 2 for celebrate."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_243_determine_4",
+      "phonetic": "/dɪˈtɜːrmɪn/",
+      "meanings": [
+        "决定",
+        "确定"
+      ],
+      "examples": [
+        "This is new example 1 for determine.",
+        "This is new example 2 for determine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_244_encourage_4",
+      "phonetic": "/ɪnˈkɜːrɪdʒ/",
+      "meanings": [
+        "鼓励",
+        "激励"
+      ],
+      "examples": [
+        "This is new example 1 for encourage.",
+        "This is new example 2 for encourage."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_245_fantastic_4",
+      "phonetic": "/fænˈtæstɪk/",
+      "meanings": [
+        "极好的",
+        "奇异的"
+      ],
+      "examples": [
+        "This is new example 1 for fantastic.",
+        "This is new example 2 for fantastic."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_246_generous_4",
+      "phonetic": "/ˈdʒenərəs/",
+      "meanings": [
+        "慷慨的",
+        "大方的"
+      ],
+      "examples": [
+        "This is new example 1 for generous.",
+        "This is new example 2 for generous."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_247_harmony_4",
+      "phonetic": "/ˈhɑːrməni/",
+      "meanings": [
+        "和谐",
+        "协调"
+      ],
+      "examples": [
+        "This is new example 1 for harmony.",
+        "This is new example 2 for harmony."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_248_imagine_4",
+      "phonetic": "/ɪˈmædʒɪn/",
+      "meanings": [
+        "想象",
+        "设想"
+      ],
+      "examples": [
+        "This is new example 1 for imagine.",
+        "This is new example 2 for imagine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_249_justice_4",
+      "phonetic": "/ˈdʒʌstɪs/",
+      "meanings": [
+        "正义",
+        "公正"
+      ],
+      "examples": [
+        "This is new example 1 for justice.",
+        "This is new example 2 for justice."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_250_adventure_5",
+      "phonetic": "/ədˈventʃər/",
+      "meanings": [
+        "冒险",
+        "奇遇"
+      ],
+      "examples": [
+        "This is new example 1 for adventure.",
+        "This is new example 2 for adventure."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_251_balance_5",
+      "phonetic": "/ˈbæləns/",
+      "meanings": [
+        "平衡",
+        "天平"
+      ],
+      "examples": [
+        "This is new example 1 for balance.",
+        "This is new example 2 for balance."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_252_celebrate_5",
+      "phonetic": "/ˈselɪbreɪt/",
+      "meanings": [
+        "庆祝",
+        "赞美"
+      ],
+      "examples": [
+        "This is new example 1 for celebrate.",
+        "This is new example 2 for celebrate."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_253_determine_5",
+      "phonetic": "/dɪˈtɜːrmɪn/",
+      "meanings": [
+        "决定",
+        "确定"
+      ],
+      "examples": [
+        "This is new example 1 for determine.",
+        "This is new example 2 for determine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_254_encourage_5",
+      "phonetic": "/ɪnˈkɜːrɪdʒ/",
+      "meanings": [
+        "鼓励",
+        "激励"
+      ],
+      "examples": [
+        "This is new example 1 for encourage.",
+        "This is new example 2 for encourage."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_255_fantastic_5",
+      "phonetic": "/fænˈtæstɪk/",
+      "meanings": [
+        "极好的",
+        "奇异的"
+      ],
+      "examples": [
+        "This is new example 1 for fantastic.",
+        "This is new example 2 for fantastic."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_256_generous_5",
+      "phonetic": "/ˈdʒenərəs/",
+      "meanings": [
+        "慷慨的",
+        "大方的"
+      ],
+      "examples": [
+        "This is new example 1 for generous.",
+        "This is new example 2 for generous."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_257_harmony_5",
+      "phonetic": "/ˈhɑːrməni/",
+      "meanings": [
+        "和谐",
+        "协调"
+      ],
+      "examples": [
+        "This is new example 1 for harmony.",
+        "This is new example 2 for harmony."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_258_imagine_5",
+      "phonetic": "/ɪˈmædʒɪn/",
+      "meanings": [
+        "想象",
+        "设想"
+      ],
+      "examples": [
+        "This is new example 1 for imagine.",
+        "This is new example 2 for imagine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_259_justice_5",
+      "phonetic": "/ˈdʒʌstɪs/",
+      "meanings": [
+        "正义",
+        "公正"
+      ],
+      "examples": [
+        "This is new example 1 for justice.",
+        "This is new example 2 for justice."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_260_adventure_6",
+      "phonetic": "/ədˈventʃər/",
+      "meanings": [
+        "冒险",
+        "奇遇"
+      ],
+      "examples": [
+        "This is new example 1 for adventure.",
+        "This is new example 2 for adventure."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_261_balance_6",
+      "phonetic": "/ˈbæləns/",
+      "meanings": [
+        "平衡",
+        "天平"
+      ],
+      "examples": [
+        "This is new example 1 for balance.",
+        "This is new example 2 for balance."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_262_celebrate_6",
+      "phonetic": "/ˈselɪbreɪt/",
+      "meanings": [
+        "庆祝",
+        "赞美"
+      ],
+      "examples": [
+        "This is new example 1 for celebrate.",
+        "This is new example 2 for celebrate."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_263_determine_6",
+      "phonetic": "/dɪˈtɜːrmɪn/",
+      "meanings": [
+        "决定",
+        "确定"
+      ],
+      "examples": [
+        "This is new example 1 for determine.",
+        "This is new example 2 for determine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_264_encourage_6",
+      "phonetic": "/ɪnˈkɜːrɪdʒ/",
+      "meanings": [
+        "鼓励",
+        "激励"
+      ],
+      "examples": [
+        "This is new example 1 for encourage.",
+        "This is new example 2 for encourage."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_265_fantastic_6",
+      "phonetic": "/fænˈtæstɪk/",
+      "meanings": [
+        "极好的",
+        "奇异的"
+      ],
+      "examples": [
+        "This is new example 1 for fantastic.",
+        "This is new example 2 for fantastic."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_266_generous_6",
+      "phonetic": "/ˈdʒenərəs/",
+      "meanings": [
+        "慷慨的",
+        "大方的"
+      ],
+      "examples": [
+        "This is new example 1 for generous.",
+        "This is new example 2 for generous."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_267_harmony_6",
+      "phonetic": "/ˈhɑːrməni/",
+      "meanings": [
+        "和谐",
+        "协调"
+      ],
+      "examples": [
+        "This is new example 1 for harmony.",
+        "This is new example 2 for harmony."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_268_imagine_6",
+      "phonetic": "/ɪˈmædʒɪn/",
+      "meanings": [
+        "想象",
+        "设想"
+      ],
+      "examples": [
+        "This is new example 1 for imagine.",
+        "This is new example 2 for imagine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_269_justice_6",
+      "phonetic": "/ˈdʒʌstɪs/",
+      "meanings": [
+        "正义",
+        "公正"
+      ],
+      "examples": [
+        "This is new example 1 for justice.",
+        "This is new example 2 for justice."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_270_adventure_7",
+      "phonetic": "/ədˈventʃər/",
+      "meanings": [
+        "冒险",
+        "奇遇"
+      ],
+      "examples": [
+        "This is new example 1 for adventure.",
+        "This is new example 2 for adventure."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_271_balance_7",
+      "phonetic": "/ˈbæləns/",
+      "meanings": [
+        "平衡",
+        "天平"
+      ],
+      "examples": [
+        "This is new example 1 for balance.",
+        "This is new example 2 for balance."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_272_celebrate_7",
+      "phonetic": "/ˈselɪbreɪt/",
+      "meanings": [
+        "庆祝",
+        "赞美"
+      ],
+      "examples": [
+        "This is new example 1 for celebrate.",
+        "This is new example 2 for celebrate."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_273_determine_7",
+      "phonetic": "/dɪˈtɜːrmɪn/",
+      "meanings": [
+        "决定",
+        "确定"
+      ],
+      "examples": [
+        "This is new example 1 for determine.",
+        "This is new example 2 for determine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_274_encourage_7",
+      "phonetic": "/ɪnˈkɜːrɪdʒ/",
+      "meanings": [
+        "鼓励",
+        "激励"
+      ],
+      "examples": [
+        "This is new example 1 for encourage.",
+        "This is new example 2 for encourage."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_275_fantastic_7",
+      "phonetic": "/fænˈtæstɪk/",
+      "meanings": [
+        "极好的",
+        "奇异的"
+      ],
+      "examples": [
+        "This is new example 1 for fantastic.",
+        "This is new example 2 for fantastic."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_276_generous_7",
+      "phonetic": "/ˈdʒenərəs/",
+      "meanings": [
+        "慷慨的",
+        "大方的"
+      ],
+      "examples": [
+        "This is new example 1 for generous.",
+        "This is new example 2 for generous."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_277_harmony_7",
+      "phonetic": "/ˈhɑːrməni/",
+      "meanings": [
+        "和谐",
+        "协调"
+      ],
+      "examples": [
+        "This is new example 1 for harmony.",
+        "This is new example 2 for harmony."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_278_imagine_7",
+      "phonetic": "/ɪˈmædʒɪn/",
+      "meanings": [
+        "想象",
+        "设想"
+      ],
+      "examples": [
+        "This is new example 1 for imagine.",
+        "This is new example 2 for imagine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_279_justice_7",
+      "phonetic": "/ˈdʒʌstɪs/",
+      "meanings": [
+        "正义",
+        "公正"
+      ],
+      "examples": [
+        "This is new example 1 for justice.",
+        "This is new example 2 for justice."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_280_adventure_8",
+      "phonetic": "/ədˈventʃər/",
+      "meanings": [
+        "冒险",
+        "奇遇"
+      ],
+      "examples": [
+        "This is new example 1 for adventure.",
+        "This is new example 2 for adventure."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_281_balance_8",
+      "phonetic": "/ˈbæləns/",
+      "meanings": [
+        "平衡",
+        "天平"
+      ],
+      "examples": [
+        "This is new example 1 for balance.",
+        "This is new example 2 for balance."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_282_celebrate_8",
+      "phonetic": "/ˈselɪbreɪt/",
+      "meanings": [
+        "庆祝",
+        "赞美"
+      ],
+      "examples": [
+        "This is new example 1 for celebrate.",
+        "This is new example 2 for celebrate."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_283_determine_8",
+      "phonetic": "/dɪˈtɜːrmɪn/",
+      "meanings": [
+        "决定",
+        "确定"
+      ],
+      "examples": [
+        "This is new example 1 for determine.",
+        "This is new example 2 for determine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_284_encourage_8",
+      "phonetic": "/ɪnˈkɜːrɪdʒ/",
+      "meanings": [
+        "鼓励",
+        "激励"
+      ],
+      "examples": [
+        "This is new example 1 for encourage.",
+        "This is new example 2 for encourage."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_285_fantastic_8",
+      "phonetic": "/fænˈtæstɪk/",
+      "meanings": [
+        "极好的",
+        "奇异的"
+      ],
+      "examples": [
+        "This is new example 1 for fantastic.",
+        "This is new example 2 for fantastic."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_286_generous_8",
+      "phonetic": "/ˈdʒenərəs/",
+      "meanings": [
+        "慷慨的",
+        "大方的"
+      ],
+      "examples": [
+        "This is new example 1 for generous.",
+        "This is new example 2 for generous."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_287_harmony_8",
+      "phonetic": "/ˈhɑːrməni/",
+      "meanings": [
+        "和谐",
+        "协调"
+      ],
+      "examples": [
+        "This is new example 1 for harmony.",
+        "This is new example 2 for harmony."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_288_imagine_8",
+      "phonetic": "/ɪˈmædʒɪn/",
+      "meanings": [
+        "想象",
+        "设想"
+      ],
+      "examples": [
+        "This is new example 1 for imagine.",
+        "This is new example 2 for imagine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_289_justice_8",
+      "phonetic": "/ˈdʒʌstɪs/",
+      "meanings": [
+        "正义",
+        "公正"
+      ],
+      "examples": [
+        "This is new example 1 for justice.",
+        "This is new example 2 for justice."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_290_adventure_9",
+      "phonetic": "/ədˈventʃər/",
+      "meanings": [
+        "冒险",
+        "奇遇"
+      ],
+      "examples": [
+        "This is new example 1 for adventure.",
+        "This is new example 2 for adventure."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_291_balance_9",
+      "phonetic": "/ˈbæləns/",
+      "meanings": [
+        "平衡",
+        "天平"
+      ],
+      "examples": [
+        "This is new example 1 for balance.",
+        "This is new example 2 for balance."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_292_celebrate_9",
+      "phonetic": "/ˈselɪbreɪt/",
+      "meanings": [
+        "庆祝",
+        "赞美"
+      ],
+      "examples": [
+        "This is new example 1 for celebrate.",
+        "This is new example 2 for celebrate."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_293_determine_9",
+      "phonetic": "/dɪˈtɜːrmɪn/",
+      "meanings": [
+        "决定",
+        "确定"
+      ],
+      "examples": [
+        "This is new example 1 for determine.",
+        "This is new example 2 for determine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_294_encourage_9",
+      "phonetic": "/ɪnˈkɜːrɪdʒ/",
+      "meanings": [
+        "鼓励",
+        "激励"
+      ],
+      "examples": [
+        "This is new example 1 for encourage.",
+        "This is new example 2 for encourage."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_295_fantastic_9",
+      "phonetic": "/fænˈtæstɪk/",
+      "meanings": [
+        "极好的",
+        "奇异的"
+      ],
+      "examples": [
+        "This is new example 1 for fantastic.",
+        "This is new example 2 for fantastic."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_296_generous_9",
+      "phonetic": "/ˈdʒenərəs/",
+      "meanings": [
+        "慷慨的",
+        "大方的"
+      ],
+      "examples": [
+        "This is new example 1 for generous.",
+        "This is new example 2 for generous."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_297_harmony_9",
+      "phonetic": "/ˈhɑːrməni/",
+      "meanings": [
+        "和谐",
+        "协调"
+      ],
+      "examples": [
+        "This is new example 1 for harmony.",
+        "This is new example 2 for harmony."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_298_imagine_9",
+      "phonetic": "/ɪˈmædʒɪn/",
+      "meanings": [
+        "想象",
+        "设想"
+      ],
+      "examples": [
+        "This is new example 1 for imagine.",
+        "This is new example 2 for imagine."
+      ],
+      "audioUrl": null
+    },
+    {
+      "spelling": "new_299_justice_9",
+      "phonetic": "/ˈdʒʌstɪs/",
+      "meanings": [
+        "正义",
+        "公正"
+      ],
+      "examples": [
+        "This is new example 1 for justice.",
+        "This is new example 2 for justice."
       ],
       "audioUrl": null
     }

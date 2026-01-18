@@ -78,15 +78,15 @@
     {
       "id": "test-update-sync",
       "name": "测试增量更新词书",
-      "description": "用于测试词书增量更新功能的测试词书 - 初始版本包含200个单词",
-      "wordCount": 200,
+      "description": "用于测试词书增量更新功能的测试词书 - v1.1.0: 修改10词 + 新增100词",
+      "wordCount": 300,
       "coverImage": null,
       "tags": [
         "测试",
         "增量更新",
         "开发"
       ],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "Test Bot",
       "downloadCount": 0
     }

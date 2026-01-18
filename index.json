@@ -74,6 +74,21 @@
       "version": "1.0.0",
       "author": "kajweb/dict",
       "downloadCount": 0
+    },
+    {
+      "id": "test-update-sync",
+      "name": "测试增量更新词书",
+      "description": "用于测试词书增量更新功能的测试词书 - 初始版本包含200个单词",
+      "wordCount": 200,
+      "coverImage": null,
+      "tags": [
+        "测试",
+        "增量更新",
+        "开发"
+      ],
+      "version": "1.0.0",
+      "author": "Test Bot",
+      "downloadCount": 0
     }
   ]
 }
